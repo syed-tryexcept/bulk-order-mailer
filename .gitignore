@@ -1,0 +1,12 @@
+# Secrets
+.env
+
+# Real customer data and logs
+*.xlsx
+!sample_customers.xlsx
+sent_log.csv
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
